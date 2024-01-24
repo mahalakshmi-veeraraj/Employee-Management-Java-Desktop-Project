@@ -1,0 +1,11 @@
+CREATE DATABASE ems;
+
+CREATE TABLE employee (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(25),
+    gender VARCHAR(10),
+    phone VARCHAR(13),
+    email VARCHAR(25),
+    designation VARCHAR(20),
+    salary DECIMAL(10,2)
+);
